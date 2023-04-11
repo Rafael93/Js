@@ -1,0 +1,20 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 606px;
+  height: 600px;
+  box-sizing: content-box;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.mole {
+  background-image: url(assets/mole.png);
+  background-color: burlywood;
+  background-position: center;
+  background-size: cover;
+}
